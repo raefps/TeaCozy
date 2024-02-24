@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+}
+.logo {
+  height: 50px;
+  padding: 10px;
+  margin: 0px;
+}
+
+nav ul,
+nav li {
+  display: inline-flex;
+  padding: 15px 10px;
+  text-decoration: underline;
+}
+
+/* Our Mission */
+.intro {
+  background-image: url(images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
+}
+
+.mission {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 1200px;
+}
+
+.month {
+  max-width: 1000px;
+  margin: auto;
+  position: center;
+  padding: 70px 20px;
+}
+
+.tea {
+  display: inline-flex;
+  align-items: flex-end;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.month h2 {
+  padding-bottom: 20px;
+}
+
+.month h4 {
+  padding-bottom: 10px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.locations {
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.locations h2 {
+    padding-top: 70px;
+}
+
+
+.address {
+  background-color: black;
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px 0px;
+  margin: 40px;
+  line-height: 60px;
+  justify-content: center;
+  opacity: 1;
+}
+
+footer {
+  padding: 10px;
+  height: 200px;
+}
+
+footer h2,
+footer,
+h5 {
+  line-height: 50px;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 20px;
+}
